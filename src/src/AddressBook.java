@@ -36,7 +36,7 @@ public class AddressBook {
 
                 opc = leer.nextInt();
 
-                
+
                 switch(opc)
                 {
                     case 1:
@@ -141,7 +141,7 @@ public class AddressBook {
 
     public static void load(HashMap<String, String> m)
     {
-        String inputFilename = "C:\\Users\\52222\\Documents\\NetBeansProjects\\AddressBook\\src\\main\\java\\islas\\addressbook\\input.csv";
+        String inputFilename = "C:\\Users\\omarc\\IdeaProjects\\input.csv";
         String a [];
 
         BufferedReader bufferedReader = null;
@@ -173,7 +173,7 @@ public class AddressBook {
     public static void save(HashMap<String, String> m)
     {
         Iterator<String> iterator = m.keySet().iterator();
-        String inputFilename = "C:\\Users\\52222\\Documents\\NetBeansProjects\\AddressBook\\src\\main\\java\\islas\\addressbook\\input.csv";
+        String inputFilename = "C:\\Users\\omarc\\IdeaProjects\\input.csv";
 
         BufferedWriter bufferedWriter = null;
 
